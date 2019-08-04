@@ -1,0 +1,9 @@
+export GOROOT=/data/nelliewang/go
+export GOPATH=/data/nelliewang/gohome
+
+export PATH=/data/nelliewang/local/bin:$PATH
+export PATH=$GOROOT/bin:$GOPATH/bin:$PATH
+export CGO_LDFLAGS='-L/data/nelliewang/lib'
+export LD_LIBRARY_PATH=/data/nelliewang/lib
+export PATH=/usr/local/qqwebsrv/php/bin:$PATH
+export CGO_LDFLAGS='-L/data/nelliewang/lib -lcmlb -lm -lpthread -lstdc++'
